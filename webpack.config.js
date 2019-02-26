@@ -30,5 +30,6 @@ module.exports = {
       ['webcomponentsjs/**/*'],
       { context: path.resolve(__dirname, 'node_modules', '@webcomponents') }
     ),
+    new NpmInstallPlugin(),
   ]
 };
